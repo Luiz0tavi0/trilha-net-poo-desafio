@@ -1,3 +1,13 @@
-﻿using DesafioPOO.Models;
+﻿// Program.cs
+using DesafioPOO.Models;
+Nokia nokia = new("111234-5679");
+Iphone iponey = new Iphone("192023-4678");
 
-// TODO: Realizar os testes com as classes Nokia e Iphone
+nokia.InstalarAplicativo("Youtube");
+nokia.InstalarAplicativo("WhatsApp");
+
+
+iponey.InstalarAplicativo("DuoLingo");
+
+iponey.Ligar();
+nokia.ReceberLigacao();
